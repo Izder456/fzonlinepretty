@@ -4,4 +4,4 @@ a prettier version of the original fzonline. https://github.com/izder456/fzonlin
 
 # How to Use
 go to site:
-https://fzonlinepretty.herokuapp.com/
+http://bit.ly/fzonline
