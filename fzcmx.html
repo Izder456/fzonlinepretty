@@ -11,11 +11,29 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
-#emul {
-	z-index: -1;
-}
 </style>
 <body>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <h1>F-ZERO CLIMAX!</h1>
+    <code>
+     <div id='emul'></div>
+      <script>
+        var NepPlayer = "#emul";
+        var NepEmu = "gba";
+        var NepLang = "en";
+        var NepZoom = "enable";
+        var gameUrl = "/ROMS/FZCMX.gba";
+	var NepColor = "#f44336";
+        var NjsScript=document.createElement( 'script' );
+        NjsScript.src="//mem.neptunjs.com/njs/njsLoader.js";
+        document.body.appendChild(NjsScript)
+     </script>
+    </code>
+  </div>
+</div>
+	
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -45,23 +63,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </div>
 
 
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <h1>F-ZERO CLIMAX!</h1>
-    <code>
-     <div id='emul'></div>
-      <script>
-        var NepPlayer = "#emul";
-        var NepEmu = "gba";
-        var NepLang = "en";
-        var NepZoom = "enable";
-        var gameUrl = "/ROMS/FZCMX.gba";
-	var NepColor = "#f44336";
-        var NjsScript=document.createElement( 'script' );
-        NjsScript.src="//mem.neptunjs.com/njs/njsLoader.js";
-        document.body.appendChild(NjsScript)
-     </script>
-    </code>
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
