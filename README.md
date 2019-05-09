@@ -1,4 +1,4 @@
-# fzonlinepretty
+# FZONLINE! (Pretty)
 All F-ZERO games except GX emulated online using NeptunJS.
 a prettier version of the original fzonline. 
 https://github.com/izder456/fzonline
