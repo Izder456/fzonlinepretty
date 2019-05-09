@@ -1,8 +1,8 @@
 # fzonlinepretty
-All F-ZERO games except GX ported to online. \n
-a prettier version of the original fzonline.  \n
+All F-ZERO games except GX ported to online.
+a prettier version of the original fzonline. 
 https://github.com/izder456/fzonline
 
 # How to Use
-go to site: \n
+go to site:
 http://bit.ly/fzemu
