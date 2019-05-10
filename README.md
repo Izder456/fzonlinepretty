@@ -12,6 +12,11 @@ https://github.com/izder456/fzonline
 * FZCMX = F-Zero Climax
 * FZXCMX = "F-Zero X Climax" F-Zero X romhack by Philippe Brodier
 
+# Bonus Games!
+* SMASH64 = Super Smash Bros for the N64
+* 19XXG6 = Super Smash Bros romhack
+
+
 # How to Use
 go to site:
 http://bit.ly/fzemu
