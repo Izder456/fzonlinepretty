@@ -9,42 +9,57 @@
 
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/index.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/fzsnes1.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/fzsnes2.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/fzmv.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/fzx.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fzonlinepretty.herokuapp.com/fzxdd.html</loc>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/fzgpl.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/fzcmx.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fzonlinepretty.herokuapp.com/fzxcmx.html</loc>
-  <lastmod>2019-05-09T13:40:52+00:00</lastmod>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fzonlinepretty.herokuapp.com/smash1.html</loc>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fzonlinepretty.herokuapp.com/smash2.html</loc>
+  <lastmod>2019-05-12T21:36:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
