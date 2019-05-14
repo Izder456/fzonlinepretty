@@ -1,0 +1,31 @@
+{
+  "name": "fzonlinepretty",
+  "version": "1.0.0",
+  "description": "F-Zero Emulated online!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izder456/fzonlinepretty.git"
+  },
+  "keywords": [
+    "website",
+    "online",
+    "f-zero",
+    "emu",
+    "game",
+    "emulation",
+    "nintendo",
+    "racing",
+    "smash"
+  ],
+  "author": "Izder456",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Izder456/fzonlinepretty/issues"
+  },
+  "homepage": "https://github.com/Izder456/fzonlinepretty#readme"
+}
