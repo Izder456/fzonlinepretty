@@ -45,15 +45,15 @@ function includeHTML() {
 
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <h1>F-Zero X!</h1>
+    <h1>BS F-Zero Grand Prix 2 Ace League!</h1>
     <code>
      <div id='emul'></div>
       <script>
         var NepPlayer = "#emul";
-        var NepEmu = "n64";
+        var NepEmu = "snes";
         var NepLang = "en";
         var NepZoom = "enable";
-        var gameUrl = "/ROMS/FZX.z64";
+        var gameUrl = "/ROMS/FZSNES2.smc";
         var NepColor = "#f44336";
         var NjsScript=document.createElement( 'script' );
         NjsScript.src="//mem.neptunjs.com/njs/njsLoader.js";
@@ -64,7 +64,7 @@ function includeHTML() {
 </div>
 	
 
-<div w3-include-html="navbar.html"></div>
+<div w3-include-html="/MODULESnavbar.html"></div>
 
 <script>
 includeHTML();

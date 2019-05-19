@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+	  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	  <a href="/index.html" class="w3-bar-item w3-button w3-padding-large w3-white">HOME</a>
+	  <a href="/PAGES/fzsnes1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZSNES1</a>
+	  <a href="/PAGES/fzsnes2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZSNES2</a>
+	  <a href="/PAGES/fzmv.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZMV</a>
+	  <a href="/PAGES/fzx.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZX</a>
+	  <a href="/PAGES/fzxdd.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZXDD</a>
+	  <a href="/PAGES/fzgpl.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZGPL</a>
+	  <a href="/PAGES/fzcmx.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZCMX</a>
+	  <a href="/PAGES/fzxcmx.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZXCMX</a>
+	  <a href="/PAGES/smash1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">SMASH64</a>
+	  <a href="/PAGES/smash2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">19XXG6</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="/index.html" class="w3-bar-item w3-button w3-padding-large w3-white">HOME</a>
+    <a href="/PAGES/fzsnes1.html" class="w3-bar-item w3-button w3-padding-large w3--white">FZSNES1</a>
+    <a href="/PAGES/fzsnes2.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZSNES2</a>
+    <a href="/PAGES/fzmv.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZMV</a>
+    <a href="/PAGES/fzx.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZX</a>
+    <a href="/PAGES/fzxdd.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZXDD</a>
+    <a href="/PAGES/fzgpl.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZGPL</a>
+    <a href="/PAGES/fzcmx.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZCMX</a>
+    <a href="/PAGES/fzxcmx.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZXCMX</a>	
+    <a href="/PAGES/smash1.html" class="w3-bar-item w3-button w3-padding-large w3-white">SMASH64</a>
+    <a href="/PAGES/smash2.html" class="w3-bar-item w3-button w3-padding-large w3-white">19XXG6</a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p>Theme Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+ <p>Emulation Powered by <a href="http://neptunjs.xyz/" target="_blank">NeptunJS</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
