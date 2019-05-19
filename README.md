@@ -3,7 +3,7 @@ All F-ZERO games except GX emulated online using NeptunJS.
 a prettier version of the original fzonline. 
 https://github.com/izder456/fzonline
 
-# Page Nomenclature
+## Page Nomenclature
 * FZSNES1 = The Original F-Zero for SNES
 * FZSNES2 = BS F-Zero Grand Prix 2 for the Satellaview addon for SNES
 * FZMV = F-Zero Maximum Velocity
@@ -13,11 +13,11 @@ https://github.com/izder456/fzonline
 * FZCMX = F-Zero Climax
 * FZXCMX = "F-Zero X Climax" F-Zero X romhack by Philippe Brodier
 
-# Bonus Games!
+## Bonus Games!
 * SMASH64 = Super Smash Bros for the N64
 * 19XXG6 = Super Smash Bros romhack
 
 
-# How to Use
+## How to Use
 go to site:
 http://bit.ly/fzemu
