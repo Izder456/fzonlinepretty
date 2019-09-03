@@ -1,3 +1,4 @@
 vendor/
 .env
 .c9
+.theia
