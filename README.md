@@ -1,6 +1,6 @@
 # FZONLINE! (Pretty)
 All F-ZERO games except GX emulated online using NeptunJS.
-a prettier version of the original fzonline. 
+a prettier version of the original fzonline.
 https://github.com/izder456/fzonline
 
 ## Page Nomenclature
@@ -12,10 +12,7 @@ https://github.com/izder456/fzonline
 * FZGPL = F-Zero GP Legend
 * FZCMX = F-Zero Climax
 * FZXCMX = "F-Zero X Climax" F-Zero X romhack by Philippe Brodier
-
-## Bonus Games!
-* SMASH64 = Super Smash Bros for the N64
-* 19XXG6 = Super Smash Bros romhack
+* FZNH = F-Zero Nebula Highway F-Zero SNES romhack
 
 
 ## How to Use
