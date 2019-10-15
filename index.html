@@ -14,6 +14,39 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
 <body>
 
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+	  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	  <a href="./index.php" class="w3-bar-item w3-button w3-padding-large w3-white">HOME</a>
+	  <a href="./PAGES/fzsnes1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZSNES1</a>
+	  <a href="./PAGES/fzsnes2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZSNES2</a>
+	  <a href="./PAGES/fzmv.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZMV</a>
+      <a href="./PAGES/fzlv.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZLV</a>
+	  <a href="./PAGES/fzx.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZX</a>
+	  <a href="./PAGES/fzxcmx.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZXCMX</a>
+	  <a href="./PAGES/fzxdd.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZXDD</a>
+	  <a href="./PAGES/fzgpl.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZGPL</a>
+	  <a href="./PAGES/fzcmx.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZCMX</a>
+	  <a href="./PAGES/fznh.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FZNH</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="./index.php" class="w3-bar-item w3-button w3-padding-large w3-white">HOME</a>
+    <a href="./PAGES/fzsnes1.html" class="w3-bar-item w3-button w3-padding-large w3--white">FZSNES1</a>
+    <a href="./PAGES/fzsnes2.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZSNES2</a>
+    <a href="./PAGES/fzmv.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZMV</a>
+    <a href="./PAGES/fzlv.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZLV</a>
+    <a href="./PAGES/fzx.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZX</a>
+    <a href="./PAGES/fzxdd.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZXDD</a>
+    <a href="./PAGES/fzxcmx.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZXCMX</a>
+    <a href="./PAGES/fzgpl.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZGPL</a>
+    <a href="./PAGES/fzcmx.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZCMX</a>
+    <a href="./PAGES/fznh.html" class="w3-bar-item w3-button w3-padding-large w3-white">FZNH</a>
+  </div>
+</div>
+
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
@@ -22,12 +55,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <p class="w3-text-grey">It's F-Zero. A balls-hard, breakneck speed, futuristic anti gravity racing game published by Nintendo. Imagine: Racing at speeds above the sound barrier, having boost limited by your health bar, and the other pilots are actively trying to kill and destroy you.</p>
     <p class="w3-text-grey">Also, as a bonus there is Smash64 and the romhack of the game 19XXG6!</p>
     <h5 class="w3-padding-14">To get started, use the *red* NavBar!</h5>
-    <img src="/PICS/Iron_Tiger.gif" alt="Baba's Iron Tiger">
   </div>
 </div>
 
-<div w3-include-html="/MODULES/navbar.html"></div>
-<script src="/MODULES/include.js"></script>
+<div w3-include-html="./MODULES/navbar.html"></div>
+<script src="./MODULES/include.js"></script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+ <p>Theme Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+ <p>Emulation Powered by <a href="http://neptunjs.xyz/" target="_blank">NeptunJS</a></p>
+</footer>
 
 </body>
 </html>
