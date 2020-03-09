@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: fzonlinepretty.netlify.com
-Token: 70f94428c821160a030f2f17046a79f706b5159eea8d27bad34e45f00e1abbeb
+Token: 8bac406e0ef391aef6691f2d7ff3f33b9b2ff7964389548f38ac071e68a66561
